@@ -4,7 +4,8 @@ import Routes from './routes';
 
 import GlobalStyle from './styles/global';
 
-const App = () => (
+export default function App(){
+   return(
   <>
     <GlobalStyle />
     <Router>
@@ -13,4 +14,8 @@ const App = () => (
   </>
 );
 
-export default App;
+}
+ 
+  
+
+
